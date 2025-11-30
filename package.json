@@ -1,10 +1,9 @@
 {
   "name": "@hawiah/mysql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MySQL database driver with schema-less JSON storage - lightweight and fast data persistence using mysql2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
