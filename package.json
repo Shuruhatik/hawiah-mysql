@@ -1,0 +1,49 @@
+{
+  "name": "@hawiah/mysql",
+  "version": "0.1.0",
+  "description": "MySQL database driver with schema-less JSON storage - lightweight and fast data persistence using mysql2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node test/example.js"
+  },
+  "keywords": [
+    "mysql",
+    "mysql2",
+    "database",
+    "driver",
+    "schema-less",
+    "json-storage",
+    "sql",
+    "database-driver",
+    "lightweight",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuruhatik/hawiah-mysql.git"
+  },
+  "homepage": "https://github.com/Shuruhatik/hawiah-mysql#readme",
+  "bugs": {
+    "url": "https://github.com/Shuruhatik/hawiah-mysql/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "INSTALLATION.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.27",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
