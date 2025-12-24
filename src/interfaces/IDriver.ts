@@ -75,4 +75,14 @@ export interface IDriver {
    * @returns Number of matching records
    */
   count(query: Query): Promise<number>;
+  /**
+   * Database type (sql or nosql)
+   * Used to determine schema behavior
+   */
+  dbType?: 'sql' | 'nosql';
+
+  /**
+   * Optional: Set schema for the driver to use (e.g. for creating SQL tables)
+   */
+  setSchema?(schema: any): void;
 }
